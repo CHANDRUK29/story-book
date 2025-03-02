@@ -18,54 +18,54 @@ const Template = args => <Button {...args} />
 
 // binding the button component and creating different stories based on our use case
 
-export const danger = Template.bind({});
-danger.args = {
+export const Danger = Template.bind({});
+Danger.args = {
     backgroundColor: 'red',
     label: 'Click Me',
     color: 'white',
     size: "md"
 }
 
-export const primary = Template.bind({})
-primary.args = {
+export const Primary = Template.bind({})
+Primary.args = {
     backgroundColor: 'blue',
     label: 'Click Me',
     color: 'white',
     size: "md"
 }
 
-export const success = Template.bind({})
-success.args = {
+export const Success = Template.bind({})
+Success.args = {
     backgroundColor: 'green',
     label: 'Click Me',
     color: 'white',
     size: "md"
 }
 
-export const warning = Template.bind({})
-warning.args = {
+export const Warning = Template.bind({})
+Warning.args = {
     backgroundColor: 'orange',
     label: 'Click Me',
     color: 'white',
     size: "md"
 }
 
-export const small = Template.bind({})
-small.args = {
+export const Small = Template.bind({})
+Small.args = {
     backgroundColor:'grey',
     label: 'Click Me',
     color: 'black',
     size: "sm"
 }
-export const medium = Template.bind({})
-medium.args = {
+export const Medium = Template.bind({})
+Medium.args = {
     backgroundColor:'grey',
     label: 'Click Me',
     color: 'black',
     size: "md"
 }
-export const large = Template.bind({})
-large.args = {
+export const Large = Template.bind({})
+Large.args = {
     backgroundColor:'grey',
     label: 'Click Me',
     color: 'black',

@@ -46,8 +46,8 @@ Horizontal.args = {
     spacing: 2,
     wrap: true
 }
-export const vertical = Template.bind({})
-vertical.args = {
+export const Vertical = Template.bind({})
+Vertical.args = {
     numberOfChildren:10,
     direction: 'column',
     spacing: 2,
